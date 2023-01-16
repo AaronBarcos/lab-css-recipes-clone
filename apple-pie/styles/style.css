@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto&display=swap');
+
+html {
+    font-family: Roboto;
+}
+
+header {
+    height: 1100px;
+    background-image: url("/apple-pie/images/apple-pie.jpg");
+    background-size: cover;
+}
+
+
+section {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#description p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 825px;
+    padding-top: 50px;
+    padding-left: 275px;
+}
+
+#ingredients {
+    padding-top: 50px;
+}
+
+#directions {
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 8rem;
+    padding-top: 500px;
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+ul li::marker {
+    content: "-";
+}
+
+ol { 
+    list-style: none;
+  }
+  
+  ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+
+li {
+    font-size: 1.25rem;
+}
